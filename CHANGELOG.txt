@@ -1,0 +1,7 @@
+# 0.1.0
+
+- checks google favicon http image loading every 10 secs
+- window online / offline events trigger check
+- public methods check, public property online
+- event emitter events online, offline, statuschanged
+- auto registers on window.onlineChecker

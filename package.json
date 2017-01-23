@@ -1,0 +1,15 @@
+{
+  "name": "screencloud-js-online",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rdf ./dist && mkdir dist && browserify index.js > dist/index.js && cp index.html dist/ && open ./dist/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.3.0"
+  }
+}
